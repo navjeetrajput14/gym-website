@@ -1,0 +1,116 @@
+body {
+    /* Css Reset */
+    margin: 0px;
+    padding: 0px;
+    background: url('css/gym2.jpg');
+    color: white;
+}
+
+/* left box for logo */
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+}
+
+/* Logo  */
+.left img {
+    width: 136px;
+    filter: invert(100);
+}
+
+/* Name  */
+.left div {
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* mid box for Navigation bar */
+.mid {
+    /* border: 2px solid orange; */
+    display: block;
+    width: 33%;
+    margin: 40px auto;
+    font-size: 30px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* right box for other info */
+.right {
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+/* Button like submit, call us now or email */
+
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.container {
+    border: 2px solid white;
+    margin: 150px 70px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+/*  Form to be fill by Customer */
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 8px auto;
+    font-size: 25px;
+}
+
+.container button {
+    display: block;
+    width: 450px;
+    padding: 2px;
+    margin: 10px auto;
+
+}

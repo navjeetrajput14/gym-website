@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Websites</title>
+    <!-- <link rel="stylesheet" href="css/gym.css"> -->
+    <style>
+        body {
+            /* Css Reset */
+            margin: 0px;
+            padding: 0px;
+            background: url("image/gym3.jpg");
+            color: white;
+        }
+
+        /* left box for logo */
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 30px;
+            left: 20px;
+
+        }
+
+        /* Logo  */
+        .left img {
+            width: 136px;
+            filter: invert(100);
+        }
+
+        /* Name  */
+        .left div {
+            line-height: normal;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        /* mid box for Navigation bar */
+        .mid {
+            /* border: 2px solid orange; */
+            display: block;
+            width: 33%;
+            margin: 40px auto;
+            font-size: 30px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        /* right box for other info */
+        .right {
+            /* border: 2px solid blue; */
+            position: absolute;
+            top: 30px;
+            right: 20px;
+        }
+
+        /* Button like submit, call us now or email */
+
+        .btn {
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 4px 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: grey;
+            text-decoration: underline;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 150px 70px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        /*  Form to be fill by Customer */
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 450px;
+            padding: 2px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 8px auto;
+            font-size: 25px;
+        }
+
+        .container button {
+            display: block;
+            width: 450px;
+            padding: 2px;
+            margin: 10px auto;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <harder class="header">
+        <div class="left">
+            <img src="image/gym logo1.webp" alt="">
+            <div>Manan Fitness</div>
+        </div>
+
+        <nav class="navbar">
+            <div class="mid">
+
+                <ul>
+                    <li>
+                        <a href="#" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"> Fitness Calculator</a>
+                    </li>
+                    <li>
+                        <a href="#"> About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </harder>
+    <div class="container">
+        <h1>Join the Best GYM of Nagina Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Age">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Gender">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Locality">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Email id">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="Enter Your Mobile Number">
+
+            </div>
+
+        </form>
+        <button class="btn">Submit</button>
+
+
+    </div>
+
+</body>
+</html>
